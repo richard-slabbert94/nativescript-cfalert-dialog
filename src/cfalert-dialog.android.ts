@@ -1,5 +1,4 @@
-import * as app from 'tns-core-modules/application';
-import { Color } from 'tns-core-modules/color';
+import { Application as app, Color } from '@nativescript/core';
 
 export enum CFAlertStyle {
   NOTIFICATION = 0,
